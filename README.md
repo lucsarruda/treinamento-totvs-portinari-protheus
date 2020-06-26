@@ -87,7 +87,7 @@ Ao final do treinamento aluno estará capacitada para montar um portal web com a
 ```  ng g s login ``` 
 5. Adicionando nosso componente no arquivo de rotas  **app-routing.module.ts**
 ```     const routes: Routes = [
-        { path: '/login', component: LoginComponent, pathMatch: 'full'  },
+        [{ path: '/login', component: LoginComponent, pathMatch: 'full'  },
         ];
 ``` 
 6. Adicionar nosso  ``` <router-outlet></router-outlet>  ``` ** app.component.html** 
